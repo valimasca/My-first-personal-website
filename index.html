@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>Laurean-Valer Masca - Full Stack Web Developer</header><br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-sm-6">
+                <img class="img-responsive" src="img_7062.jpg">
+            </div>
+            <div class="col-lg-6 col-sm-6">
+                <p id="p1">ABOUT ME:</p>
+                <p id="p2">I was born in Romania and I had lived there until I was 28. At the age of 28 I moved to UK
+                    where I worked in the medical field, first as a Health Care Assistant and then as a Ward Clerk and
+                    after that as a Discharge Coordinator in a ward. I always learned how to work with programs
+                    but never how to build programs. I moved to Redding in Nov '18 after I got married and
+                    I am excited about the school and about what I can learn. I'm excited to develop and grow
+                    in coding and spiritually and to get to know people here in this community!
+                    I'm excited about the opportunity it brings me and what my future holds!!!
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="cardSocialMedia">
+                    <a href="https://github.com/valimasca" class="fab fa-github" aria-hidden="true"></a>
+                    <a href="https://www.linkedin.com/in/valer-laurean-06568511b/" class="fab fa-linkedin"
+                        aria-hidden="true"></a>
+                    <a href="https://www.facebook.com/laurean.valer" class="fab fa-facebook-square"
+                        aria-hidden="true"></a>
+                    <a href="https://www.youtube.com/channel/UC-bLUykW5icEeUb-2q7--AQ?view_as=subscriber"
+                        class="fab fa-youtube"></a>
+                    <a href="https://www.pinterest.co.uk/lauvali/" class="fab fa-pinterest"></a>
+                </div>
+            </div>
+        </div>
+    </div><br><br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <ul class="list-group" id="ul1">MY SKILLS:
+                    <li class="list-group-item list-group-item-success">Java Script</li>
+                    <li class="list-group-item list-group-item-info">HTML</li>
+                    <li class="list-group-item list-group-item-warning">CSS</li>
+                    <li class="list-group-item list-group-item-danger">BOOTSTRAP</li>
+                </ul>
+            </div>
+            <div class="col-sm-6">
+                GitHub username:
+                <input type="text" id="username" value="valimasca" />
+                <button onclick="loadRepos()">Load Repos</button>
+                <ul id="repos">
+                    <li>
+                        <a href="{repo.html_url}"></a>
+                    </li>
+                    <p id="name0"></p>
+                    <p id="name1"></p>
+                    <p id="name2"></p>
+                </ul>
+            </div>
+        </div>
+    </div><br><br><br><br><br>
+
+    <div class="footer">
+        <p>Contact me: </p>
+        <i class="fas fa-envelope"> e3skadron@gmail.com</i>
+        <p>COPYRIGHT &copy; Vali Masca 2018</p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
