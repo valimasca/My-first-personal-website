@@ -1,19 +1,23 @@
 @media (max-width: 576px) {
     body {
         background-color: lightseagreen;
-        
+
     }
 }
+
 * {
     font-family: 'Ubuntu', sans-serif;
 }
+
 header {
     text-align: center;
     font-size: 40px;
     padding: 10px;
     border-top: 3px;
-    background-color: lightseagreen
+    background-color: lightseagreen;
+    color: pink;
 }
+
 .cardSocialMedia {
     text-align: center;
     border-top: 1px dashed #ccc;
@@ -21,6 +25,7 @@ header {
     font-size: 40px;
     background-color: lightseagreen;
 }
+
 .img-responsive {
     border-radius: 250px;
     height: 300px;
@@ -47,22 +52,24 @@ header {
     color: black;
     text-align: center;
     padding: 0px 0px 5px 0px;
- }
+}
 
- #ul1 {
-     background-color: darksalmon;
-     color: black;
-     text-align: center; 
- }
- #p1 {
-     background-color: black;
-     color:lightseagreen;
-     font-weight: bold;
-     text-align: center;
- }
- #p2 {
-     background-color: lightseagreen;
-     color: black;
-     text-align: justify;
-     padding: 5px;
- }
+#ul1 {
+    background-color: darksalmon;
+    color: black;
+    text-align: center;
+}
+
+#p1 {
+    background-color: black;
+    color: lightseagreen;
+    font-weight: bold;
+    text-align: center;
+}
+
+#p2 {
+    background-color: lightseagreen;
+    color: black;
+    text-align: justify;
+    padding: 5px;
+}
